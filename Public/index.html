@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>myblog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <h1>~ myblog ~</h1>
+      <ul>
+        <li><a href="/about">about</a></li>
+        <li><a href="#" data-filter="all">all</a></li>
+        <li><a href="#" data-filter="economics">economics articles</a></li>
+        <li><a href="#" data-filter="crypto">crypto articles</a></li>
+        <li><a href="#" data-filter="other">other articles</a></li>
+      </ul>
+    </nav>
+
+    <main class="content" id="article-container">
+      <!-- Články se sem budou dynamicky generovat -->
+    </main>
+  </div>
+  <script src="compiled/script.js" defer></script>
+</body>
+</html>

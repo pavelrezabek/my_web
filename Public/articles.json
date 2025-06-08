@@ -1,0 +1,24 @@
+[
+  {
+    "id": "article-1",
+    "title": "Economy and Growth",
+    "intro": "Základní principy ekonomického růstu.",
+      "content": "<p>Dlouhý HTML obsah článku...</p>",
+    "category": "economics"
+  },
+  {
+    "id": "article-2",
+    "title": "Bitcoin vs. Fiat",
+    "intro": "Srovnání kryptoměn a tradiční měny.",
+    "content": "<p>Dlouhý HTML obsah článku...</p>",
+
+    "category": "crypto"
+  },
+  {
+    "id": "article-3",
+    "title": "Náhodné myšlenky",
+    "intro": "Zamyšlení nad životem.",
+    "content": "<p>Dlouhý HTML obsah článku...</p>",
+    "category": "other"
+  }
+]
