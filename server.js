@@ -6,6 +6,9 @@ const PORT = 3000;
 // Slouží statické soubory z adresáře "public"
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html');
+});
 
 app.get('/about', (req, res) => {
   res.sendFile(__dirname + '/Public/about.html');
