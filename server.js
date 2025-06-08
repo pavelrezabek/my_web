@@ -11,8 +11,10 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.sendFile(__dirname + '/Public/about.html');
+  res.sendFile(__dirname + '/public/about.html');
 });
+
+//change
 
 
 // Spuštění serveru
